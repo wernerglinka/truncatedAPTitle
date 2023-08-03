@@ -8,7 +8,7 @@ The TruncatedAPTitle web component applies AP title case styling to the text wit
 
 ## Installation
 ```bash
-npm install titleblock
+npm install truncatedaptitle
 ```
 ## Usage
 ```html
@@ -21,12 +21,12 @@ npm install titleblock
 | apstyle | boolean | If present, the title will be converted to AP Title Case. |
 
 ## License
-[MIT](https://github.com/wernerglinka/titleblock/blob/main/LICENSE)
+[MIT](https://github.com/wernerglinka/truncatedaptitle/blob/main/LICENSE)
 
 ## Author
 [Werner Glinka](werner@glinka.co)
 
-[npm-badge]: https://img.shields.io/npm/v/titleblock.svg
-[npm-url]: https://www.npmjs.com/package/titleblock
-[license-badge]: https://img.shields.io/github/license/wernerglinka/titleblock
+[npm-badge]: https://img.shields.io/npm/v/truncatedaptitle.svg
+[npm-url]: https://www.npmjs.com/package/truncatedaptitle
+[license-badge]: https://img.shields.io/github/license/wernerglinka/truncatedaptitle
 [license-url]: LICENSE
