@@ -27,6 +27,6 @@ npm install truncatedaptitle
 [Werner Glinka](werner@glinka.co)
 
 [npm-badge]: https://img.shields.io/npm/v/@wernerglinka/truncatedaptitle.svg
-[npm-url]: https://www.https://www.npmjs.com/package/@wernerglinka/truncatedaptitle
+[npm-url]: https://www.npmjs.com/package/@wernerglinka/truncatedaptitle
 [license-badge]: https://img.shields.io/github/license/wernerglinka/truncatedaptitle
 [license-url]: LICENSE
