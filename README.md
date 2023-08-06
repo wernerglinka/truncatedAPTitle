@@ -12,7 +12,7 @@ npm install truncatedaptitle
 ```
 ## Usage
 ```html
-<truncated-aptitle apstyle textlength="30">Headline goes here</truncated-aptitle>
+<span truncated-aptitle apstyle textlength="30">Headline goes here</span>
 ```
 ## Attributes
 | Attribute | Type | Description |
