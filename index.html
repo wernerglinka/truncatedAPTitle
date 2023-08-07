@@ -20,13 +20,13 @@
       // remove the APStyle attribute after 3 seconds
       setTimeout(() => {
         const target = document.querySelector('span');
-        target.removeAttribute('apstyle');
+        target.apstyle = false;
         console.log("removed APStyle attribute");
       }, 3000);
       // change the text length to 30 after 6 seconds
       setTimeout(() => {
         const target = document.querySelector('span');
-        target.setAttribute('textlength', '30');
+        target.textlength = 30;
         console.log("changed text length to 30");
       }, 6000);
       // replace the text with a new string after 9 seconds. This string should not
