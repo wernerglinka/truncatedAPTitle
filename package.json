@@ -1,6 +1,6 @@
 {
   "name": "@wernerglinka/truncatedaptitle",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Extends the HTML span element with a couple of unique attributes: apstyle and textlength.",
   "main": "truncaptitle.js",
   "scripts": {
