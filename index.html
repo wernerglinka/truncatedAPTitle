@@ -7,72 +7,72 @@
         font-family: Helvetica, sans-serif;
       }
     </style>
-    <script src="lib/truncaptitle.js" type="module"></script>
+    <script src="lib/truncaptitle.js" type="module" defer></script>
     
   </head>
   <body>
     
-    <span is="truncated-aptitle" textlength="15">everything you need to know about headline style and capitalization</span>
+    <truncated-aptitle apstyle textlength="15">everything you need to know about headline style and capitalization</truncated-aptitle>
 
     <p><strong>Should be rendered as</strong>: Everything You Need to Know About Headline Style and Capitalization</p>
 
     <script>
+
       // remove the APStyle after 3 seconds
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.apstyle = false;
         console.log("removed APStyle attribute with property");
       }, 3000);
-      
+
       // change the text length to 30 after 6 seconds
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.textlength = 30;
         console.log("changed text length to 30 with property");
       }, 6000);
-/*      
+      
       // replace the text with a new string after 9 seconds. This string should not
       // be APStyled
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.textContent = 'Understanding different headline writing styles and more to know';
         console.log("changed text content with property");
       }, 9000);
       
       // add APStyle back after 12 seconds
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.apstyle = true;
         console.log("added APStyle attribute with property");
       }, 12000);
       
       // change the text length to 30 after 6 seconds
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.setAttribute('textlength', '60');
         console.log("changed text length to 60  with attribute");
       }, 15000);
       
       // deleted text length after 18 seconds
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.removeAttribute('textlength');
         console.log("deleted text length  with attribute");
       }, 18000);
       
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.setAttribute('textlength', '45');
         console.log("added text length to 45  with attribute");
       }, 21000);
 
       // remove the APStyle
       setTimeout(() => {
-        const target = document.querySelector('span');
+        const target = document.querySelector('truncated-aptitle');
         target.removeAttribute('apstyle');
         console.log("removed APStyle attribute with attribute");
       }, 24000);
-*/
     </script>
 
   </body>
