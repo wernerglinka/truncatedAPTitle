@@ -12,7 +12,7 @@
   </head>
   <body>
     
-    <span is="truncated-aptitle" apstyle>everything you need to know about headline style and capitalization</span>
+    <span is="truncated-aptitle" textlength="15">everything you need to know about headline style and capitalization</span>
 
     <p><strong>Should be rendered as</strong>: Everything You Need to Know About Headline Style and Capitalization</p>
 
@@ -30,7 +30,7 @@
         target.textlength = 30;
         console.log("changed text length to 30 with property");
       }, 6000);
-      
+/*      
       // replace the text with a new string after 9 seconds. This string should not
       // be APStyled
       setTimeout(() => {
@@ -72,7 +72,7 @@
         target.removeAttribute('apstyle');
         console.log("removed APStyle attribute with attribute");
       }, 24000);
-
+*/
     </script>
 
   </body>
