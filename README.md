@@ -12,7 +12,7 @@ The TruncatedAPTitle web component applies AP title case styling to the text wit
 ```bash
 npm install truncatedaptitle
 ```
-Important: Since `truncatedaptitle` relies on a child for its initial setup, e.g. the textContent, we need to insure that the document is fullt parsed before the truncatedaptitle constructor is called. This is done by adding the `defer` attribute to the script tag that loads the `truncatedaptitle` module. The defer attribute specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing.
+**Important**: Since `truncatedaptitle` relies on a child for its initial setup, e.g. the textContent, we need to insure that the document is fully parsed before the `truncatedaptitle` constructor is called. This is done by adding the `defer` attribute to the script tag that loads the `truncatedaptitle` module. The `defer` attribute specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing.
 
 ## Usage
 ```html
