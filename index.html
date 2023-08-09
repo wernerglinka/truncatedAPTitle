@@ -17,48 +17,61 @@
     <p><strong>Should be rendered as</strong>: Everything You Need to Know About Headline Style and Capitalization</p>
 
     <script>
-      // remove the APStyle attribute after 3 seconds
+      // remove the APStyle after 3 seconds
       setTimeout(() => {
         const target = document.querySelector('span');
         target.apstyle = false;
-        console.log("removed APStyle attribute");
+        console.log("removed APStyle attribute with property");
       }, 3000);
+      
       // change the text length to 30 after 6 seconds
       setTimeout(() => {
         const target = document.querySelector('span');
         target.textlength = 30;
-        console.log("changed text length to 30");
+        console.log("changed text length to 30 with property");
       }, 6000);
+      
       // replace the text with a new string after 9 seconds. This string should not
       // be APStyled
       setTimeout(() => {
         const target = document.querySelector('span');
         target.textContent = 'Understanding different headline writing styles and more to know';
-        console.log("changed text content");
+        console.log("changed text content with property");
       }, 9000);
-      // add APStyle attribute back after 12 seconds
+      
+      // add APStyle back after 12 seconds
       setTimeout(() => {
         const target = document.querySelector('span');
-        target.setAttribute('apstyle', '');
-        console.log("added APStyle attribute");
+        target.apstyle = true;
+        console.log("added APStyle attribute with property");
       }, 12000);
+      
       // change the text length to 30 after 6 seconds
       setTimeout(() => {
         const target = document.querySelector('span');
         target.setAttribute('textlength', '60');
-        console.log("changed text length to 60");
+        console.log("changed text length to 60  with attribute");
       }, 15000);
+      
       // deleted text length after 18 seconds
       setTimeout(() => {
         const target = document.querySelector('span');
         target.removeAttribute('textlength');
-        console.log("deleted text length");
+        console.log("deleted text length  with attribute");
       }, 18000);
+      
       setTimeout(() => {
         const target = document.querySelector('span');
         target.setAttribute('textlength', '45');
-        console.log("added text length to 45");
+        console.log("added text length to 45  with attribute");
       }, 21000);
+
+      // remove the APStyle
+      setTimeout(() => {
+        const target = document.querySelector('span');
+        target.removeAttribute('apstyle');
+        console.log("removed APStyle attribute with attribute");
+      }, 24000);
 
     </script>
 
