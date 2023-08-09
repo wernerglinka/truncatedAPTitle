@@ -14,7 +14,6 @@ npm install truncatedaptitle
 ```
 Important: Since `truncatedaptitle` relies on a child for its initial setup, e.g. the textContent, we need to insure that the document is fullt parsed before the truncatedaptitle constructor is called. This is done by adding the `defer` attribute to the script tag that loads the `truncatedaptitle` module. The defer attribute specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing.
 
-```html 
 ## Usage
 ```html
 <truncated-aptitle apstyle textlength="30">Headline goes here</truncated-aptitle>
